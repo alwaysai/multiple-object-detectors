@@ -4,7 +4,6 @@
   },
   "models": {
     "alwaysai/mobilenet_ssd": 3,
-    "alwaysai/agenet": 9,
-    "alwaysai/res10_300x300_ssd_iter_140000": 6
+    "alwaysai/ssd_inception_v2_coco_2018_01_28": 1
   }
 }
