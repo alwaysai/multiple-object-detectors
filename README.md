@@ -1,5 +1,4 @@
-This app enables two alwaysAI models to be used simultaneously: one to detect facial objects, and a second to classify the detected faces in terms of age ranges. 
-
+This app enables two alwaysAI models to be used simultaneously: one to detect facial objects, and a second to classify the detected faces in terms of age ranges. Each model's output is displayed in its own video frame.
 
 To run this app, you will need an alwaysAI account. Please register at https://alwaysai.co/auth?register=true
 
