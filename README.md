@@ -11,9 +11,9 @@ If you are having trouble connecting to your edge device, use the CLI configure 
 
 
 The models used in this app are "alwaysai/mobilenet_ssd" and "alwaysai/ssd_inception_v2_coco_2018_01_28". You can find out more about these models at the following pages:
-https://alwaysai.co/model-catalog?model=alwaysai/mobilenet_ssd
+(alwaysai/mobilenet_ssd): https://alwaysai.co/model-catalog?model=alwaysai/mobilenet_ssd
 
-https://alwaysai.co/model-catalog?model=alwaysai/ssd_inception_v2_coco_2018_01_28
+(alwaysai/ssd_inception_v2_coco_2018_01_28): https://alwaysai.co/model-catalog?model=alwaysai/ssd_inception_v2_coco_2018_01_28
 
 
 You can alter the code to use different detection models: https://alwaysai.co/docs/application_development/changing_the_model.html
