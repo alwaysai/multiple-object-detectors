@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "python app.py"
+  },
+  "models": {
+    "alwaysai/mobilenet_ssd": 3,
+    "alwaysai/agenet": 9,
+    "alwaysai/res10_300x300_ssd_iter_140000": 6
+  }
+}
