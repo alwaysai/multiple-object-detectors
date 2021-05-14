@@ -50,7 +50,7 @@ def main():
     try:
         with edgeiq.WebcamVideoStream(cam=0) as video_stream, \
                 edgeiq.Streamer() as streamer:
-            
+
             # Allow Webcam to warm up
             time.sleep(2.0)
             fps.start()
@@ -61,7 +61,7 @@ def main():
 
                 text = [""]
 
-                # gather data from the all the detectors 
+                # gather data from the all the detectors
                 for i in range(0, len(detectors)):
                     results = detectors[i].detect_objects(
                         frame, confidence_level=.5)
@@ -78,10 +78,11 @@ def main():
 
                     # append each prediction
                     for prediction in results.predictions:
-                        text.append("Model {} detects {}: {:2.2f}%".format(detectors[i].model_id,
-                            prediction.label, prediction.confidence * 100))
-                
-                # send the image frame and the predictions for both 
+                        text.append(
+                                "Model {} detects {}: {:2.2f}%".format(detectors[i].model_id,
+                                prediction.label, prediction.confidence * 100))
+
+                # send the image frame and the predictions for both
                 # prediction models to the output stream
                 streamer.send_data(display_frame, text)
 
